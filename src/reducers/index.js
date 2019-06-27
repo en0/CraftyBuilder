@@ -1,6 +1,8 @@
 import { combineReducers } from "redux/es/redux";
-import { pings } from "./pings";
+import projects from "./projects";
+import filters from "./filters";
 
 export const craftyApp = combineReducers({
-    pings
+    projects,
+    filters,
 });

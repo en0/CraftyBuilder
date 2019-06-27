@@ -1,20 +1,23 @@
 import React from 'react';
 import { ThemeProvider } from '@material-ui/styles';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from "./themes/default";
-import PingButton from "./containers/PingButton";
+import ProjectListView from "./layouts/ProjectListView";
+import ProjectDetailView from "./layouts/ProjectDetailView";
 
-
-function App() {
-  return (
-      <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <header className="App-header">
-              <h2>hello</h2>
-              <PingButton />
-          </header>
-      </ThemeProvider>
-  );
-}
+const App = () => (
+  <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <header>
+          <Router>
+              <Switch>
+                  <Route exact path="/" component={ProjectListView}/>
+                  <Route path="/detail/:id" component={ProjectDetailView} />
+              </Switch>
+          </Router>
+      </header>
+  </ThemeProvider>
+);
 
 export default App;
