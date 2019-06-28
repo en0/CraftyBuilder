@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from "./themes/default";
 import ProjectListView from "./layouts/ProjectListView";
-import ProjectDetailView from "./layouts/ProjectDetailView";
+import ProjectDetailView from "./layouts/EditorView";
 
 const App = () => (
   <ThemeProvider theme={theme}>

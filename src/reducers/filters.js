@@ -10,6 +10,6 @@ export default function(state = initialState, action) {
         case SET_TEXT_FILTER:
             return { ...state, [ action.payload.key ]: action.payload.text };
         default:
-            return initialState;
+            return state;
     }
 }
