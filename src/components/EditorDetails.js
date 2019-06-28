@@ -54,7 +54,6 @@ const withStyle = makeStyles(theme => ({
 }));
 
 export default function({image, title, desc, videoUrl}) {
-    console.log(videoUrl)
     const classes = withStyle();
     return (
         <div>

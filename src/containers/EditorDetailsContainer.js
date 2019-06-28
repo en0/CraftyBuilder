@@ -1,5 +1,5 @@
 import React from "react";
-import EditorDetailsView from "../layouts/EditorDetailsView";
+import EditorDetailsView from "../components/EditorDetails";
 import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
 

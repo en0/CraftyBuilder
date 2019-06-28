@@ -1,4 +1,4 @@
 import React from "react";
-import EditorMaterialsView from "../layouts/EditorMaterialsView";
+import EditorMaterialsView from "../components/EditorMaterials";
 
 export default EditorMaterialsView;
