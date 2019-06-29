@@ -1,7 +1,8 @@
-import { SET_ACTIVE_VIEW } from "../actions/EditorActions";
+import {SET_ACTIVE_RESOURCE_INDEX, SET_ACTIVE_VIEW} from "../actions/EditorActions";
 
 const initialState = {
     activeView: "edit:details",
+    activeResourceIndex: -1,
     menuItems: [
         { view:"edit:home", text: "Home", toolTip: "Return to project list", icon: "settings_backup_restore"},
         { view:"edit:details", text: "Details", toolTip: "Project Details", icon: "games" },
@@ -15,6 +16,8 @@ export default function (state = initialState, action) {
     switch(action.type) {
         case SET_ACTIVE_VIEW:
             return { ...state, activeView: action.payload };
+        case SET_ACTIVE_RESOURCE_INDEX:
+            return { ...state, activeResourceIndex: action.payload };
         default:
             return state;
     }

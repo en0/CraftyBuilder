@@ -1,8 +1,13 @@
-import React from "react";
 import {connect} from "react-redux";
 import EditorResourcesToolbar from "../components/EditorResourcesToolbar";
+import {addNewResource} from "../actions/ProjectActions";
+import {withRouter} from "react-router-dom";
 
 const mapStateToProps = () => ({
 });
 
-export default connect(mapStateToProps)(EditorResourcesToolbar);
+const mapDispatchToProps = (dispatch, {match}) => ({
+    onAddResource: () => dispatch(addNewResource(match.params.id, {mcid:"minecraft:piston"}))
+});
+
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(EditorResourcesToolbar));

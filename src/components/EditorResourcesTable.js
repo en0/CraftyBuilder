@@ -20,7 +20,7 @@ export default function({items, selectedIndex, onRowClick}) {
                     <TableRow hover
                               key={`resource-row-${i}`}
                               role="checkbox"
-                              onClick={() => onRowClick(i)}
+                              onClick={() => onRowClick(selectedIndex === i ? -1 : i)}
                               tabIndex={-1}
                               selected={selectedIndex === i}>
                         <TableCell component="th" scope="row" id={`resource-row-${i}`} >{a.name}</TableCell>

@@ -59,7 +59,8 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function() {
+export default function({onAddResource}) {
+    console.log("HER ", onAddResource);
 
     const classes = useStyles();
 
@@ -74,7 +75,7 @@ export default function() {
                        placeholder="Search..." inputProps={{ 'aria-label': 'Search' }} />
                 </div>
                 <div className={classes.flex}>
-                    <IconButton aria-label="Add Resource" color="inherit">
+                    <IconButton aria-label="Add Resource" color="inherit" onClick={() => onAddResource()}>
                         <Icon>add_circle</Icon>
                     </IconButton>
                 </div>

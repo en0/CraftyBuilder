@@ -1,22 +1,20 @@
 import {connect} from "react-redux";
 import EditorResourcesPanel from "../components/EditorResourcesPanel";
+import {setActiveResourceIndex} from "../actions/EditorActions";
+import {withRouter} from "react-router-dom";
 
-const resources = [
-    { mcid: "minecraft:piston", quantity: 16 },
-    { mcid: "minecraft:chest", quantity: 34, notes: "Storage" },
-    { mcid: "minecraft:hopper", quantity: 68, notes: "Sorter" },
-];
+const mapStateToProps = ( state, {match} ) => {
 
-const selectedIndex = 0;
+    const projectId = match.params.id;
+    const item = state.projects[projectId].resources[state.editor.activeResourceIndex];
 
-const mapStateToProps = state => {
-    const item = resources[selectedIndex];
     return ({
         resource: item && {...state.components[item.mcid], ...item}
     });
 };
 
-const mapDispatchToProps = () => ({
+const mapDispatchToProps = dispatch => ({
+    onClose: () => dispatch(setActiveResourceIndex(-1))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(EditorResourcesPanel);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(EditorResourcesPanel));

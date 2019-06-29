@@ -1,20 +1,19 @@
 import React from "react";
 import EditorResourcesTable from "../components/EditorResourcesTable";
 import {connect} from "react-redux";
+import {setActiveResourceIndex} from "../actions/EditorActions";
+import {withRouter} from "react-router-dom";
 
-const resources = [
-    { minecraftId: "minecraft:piston", quantity: 16 },
-    { minecraftId: "minecraft:chest", quantity: 34, notes: "Storage" },
-    { minecraftId: "minecraft:hopper", quantity: 68, notes: "Sorter" },
-];
+const mapStateToProps = ( state, {match} ) => {
+    const projectId = match.params.id;
+    return ({
+        items: state.projects[projectId].resources.map(r => ({ ...state.components[r.mcid], ...r})),
+        selectedIndex: state.editor.activeResourceIndex,
+    });
+};
 
-const mapStateToProps = state => ({
-    items: resources.map(r => ({ ...state.components[r.minecraftId], ...r })),
-    selectedIndex: 0,
+const mapDispatchToProps = dispatch => ({
+    onRowClick: (i) => dispatch(setActiveResourceIndex(i)),
 });
 
-const mapDispatchToProps = () => ({
-    onRowClick: () => {}
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(EditorResourcesTable);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(EditorResourcesTable));

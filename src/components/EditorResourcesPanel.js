@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
     controls: { float: "right", }
 }));
 
-export default function({ resource }) {
+export default function({ resource, onClose, onDelete }) {
 
     if (!resource)
         return null;
@@ -37,7 +37,7 @@ export default function({ resource }) {
             <Paper className={classes.surface}>
                 <div className={classes.controls}>
                     <Tooltip title="Close Panel">
-                        <IconButton size="small">
+                        <IconButton size="small" onClick={() => onClose()}>
                             <Icon fontSize="inherit">close</Icon>
                         </IconButton>
                     </Tooltip>
