@@ -1,10 +1,12 @@
 import { combineReducers } from "redux/es/redux";
 import projects from "./projects";
 import filters from "./filters";
-import navigation from "./navigation";
+import editor from "./editor";
+import components from "./components";
 
 export const craftyApp = combineReducers({
     projects,
     filters,
-    navigation
+    editor,
+    components,
 });

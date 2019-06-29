@@ -6,10 +6,10 @@ import EditorMenuItem from "./EditorMenuItem";
 
 const useStyles = makeStyles(theme => ({
     drawer: {width: theme.drawerWidth, flexShrink: 0,},
-    drawerPaper: {width: theme.drawerWidth,},
+    drawerPaper: {width: theme.drawerWidth, overflow: "hidden" },
 }));
 
-export default function ClippedDrawer({ items, selected, onNavigationClick }) {
+export default function ClippedDrawer({ items, activeView, onNavigationClick }) {
 
     const classes = useStyles();
 
@@ -20,11 +20,12 @@ export default function ClippedDrawer({ items, selected, onNavigationClick }) {
             classes={{ paper: classes.drawerPaper }}>
             <List>
                 {items.map(m => <EditorMenuItem
-                    key={m.key}
+                    selected={activeView === m.view}
+                    key={m.view}
                     text={m.text}
                     toolTip={m.toolTip}
                     icon={m.icon}
-                    onClick={() => onNavigationClick(m.key)} />)}
+                    onClick={() => onNavigationClick(m.view)} />)}
             </List>
         </Drawer>
     );

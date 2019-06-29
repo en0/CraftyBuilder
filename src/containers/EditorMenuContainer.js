@@ -1,18 +1,18 @@
 import EditorMenu from "../components/EditorlMenu";
 import {connect} from "react-redux";
-import {navigateEditorTo} from "../actions/NavigationActions"
+import {setActiveView} from "../actions/EditorActions"
 import {withRouter} from "react-router-dom";
 
 const mapStateToProps = state => ({
-    items: state.navigation.editor,
-    selected: state.navigation.editorKey
+    items: state.editor.menuItems,
+    activeView: state.editor.activeView
 });
 
 const mapDispatchToProps = (dispatch, { history }) => ({
-    onNavigationClick: (key) => {
-        key === "edit:home"
+    onNavigationClick: (view) => {
+        view === "edit:home"
             ? history.push("/")
-            : dispatch(navigateEditorTo(key));
+            : dispatch(setActiveView(view));
     }
 });
 
