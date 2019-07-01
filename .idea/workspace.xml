@@ -3,16 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="f1448054-80eb-4cf7-a482-4c6399fb3033" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/EditorActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/EditorActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/ProjectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/ProjectActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/EditorResourcesPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditorResourcesPanel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/EditorResourcesTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditorResourcesTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditorResourcesToolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditorResourcesToolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/EditorDetailsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/EditorDetailsContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/EditorResourcesPanelContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/EditorResourcesPanelContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/EditorResourcesTableContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/EditorResourcesTableContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/EditorResourcesToolbarContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/EditorResourcesToolbarContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/components.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,45 +31,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesPanel.js">
+        <entry file="file://$PROJECT_DIR$/src/reducers/editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+            <state relative-caret-position="559">
+              <caret line="35" column="97" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="97" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/EditorResourcesPanelContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/reducers/projects.js">
+        <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesToolbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+            <state relative-caret-position="105">
+              <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#1704#4292#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/EditorResourcesToolbarContainer.js">
+        <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+            <state relative-caret-position="240">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,9 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/ProjectCard.js" />
-        <option value="$PROJECT_DIR$/src/layouts/ProductListView.js" />
-        <option value="$PROJECT_DIR$/src/actions/FilterActions.js" />
         <option value="$PROJECT_DIR$/src/containers/ProjectListFilterContainer.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectCardList.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
@@ -110,32 +116,35 @@
         <option value="$PROJECT_DIR$/src/containers/EditorMaterialsContainer.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/CraftyBuilderBrainDump.txt" />
         <option value="$PROJECT_DIR$/src/layouts/EditorDetailsView.js" />
-        <option value="$PROJECT_DIR$/src/themes/default.js" />
         <option value="$PROJECT_DIR$/src/layouts/EditorView.js" />
-        <option value="$PROJECT_DIR$/src/containers/EditorDetailsContainer.js" />
         <option value="$PROJECT_DIR$/src/components/EditorMaterialsToolbar.js" />
         <option value="$PROJECT_DIR$/src/layouts/EditorBodyResourceView.js" />
         <option value="$PROJECT_DIR$/src/components/EditorResourceTable.js" />
         <option value="$PROJECT_DIR$/src/layouts/EditorBodyView.js" />
         <option value="$PROJECT_DIR$/src/components/EditorResources.js" />
-        <option value="$PROJECT_DIR$/src/reducers/components.js" />
         <option value="$PROJECT_DIR$/src/reducers/navigation.js" />
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/containers/EditorBodyContainer.js" />
         <option value="$PROJECT_DIR$/src/containers/EditorMenuContainer.js" />
         <option value="$PROJECT_DIR$/src/components/EditorlMenu.js" />
         <option value="$PROJECT_DIR$/src/components/EditorMenuItem.js" />
-        <option value="$PROJECT_DIR$/src/reducers/editor.js" />
-        <option value="$PROJECT_DIR$/src/components/EditorResourcesTable.js" />
-        <option value="$PROJECT_DIR$/src/components/EditorResourcesPanel.js" />
-        <option value="$PROJECT_DIR$/src/containers/EditorResourcesPanelContainer.js" />
-        <option value="$PROJECT_DIR$/src/containers/EditorResourcesTableContainer.js" />
-        <option value="$PROJECT_DIR$/src/actions/EditorActions.js" />
         <option value="$PROJECT_DIR$/src/layouts/EditorResourcesView.js" />
         <option value="$PROJECT_DIR$/src/components/EditorResourcesToolbar.js" />
-        <option value="$PROJECT_DIR$/src/containers/EditorResourcesToolbarContainer.js" />
-        <option value="$PROJECT_DIR$/src/actions/ProjectActions.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/EditorDetailsContainer.js" />
         <option value="$PROJECT_DIR$/src/reducers/projects.js" />
+        <option value="$PROJECT_DIR$/src/reducers/components.js" />
+        <option value="$PROJECT_DIR$/src/containers/EditorResourcesToolbarContainer.js" />
+        <option value="$PROJECT_DIR$/src/stores/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/EditorResourcesTableContainer.js" />
+        <option value="$PROJECT_DIR$/src/themes/default.js" />
+        <option value="$PROJECT_DIR$/src/components/Autocomplete.js" />
+        <option value="$PROJECT_DIR$/src/reducers/projectResources.js" />
+        <option value="$PROJECT_DIR$/src/components/EditorResourcesTable.js" />
+        <option value="$PROJECT_DIR$/src/actions/ProjectActions.js" />
+        <option value="$PROJECT_DIR$/src/actions/EditorActions.js" />
+        <option value="$PROJECT_DIR$/src/containers/EditorResourcesPanelContainer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/editor.js" />
+        <option value="$PROJECT_DIR$/src/components/EditorResourcesPanel.js" />
       </list>
     </option>
   </component>
@@ -194,6 +203,18 @@
               <item name="craftybuilder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="craftybuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="craftybuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="craftybuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="craftybuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="craftybuilder" type="b2602c69:ProjectViewProjectNode" />
@@ -275,12 +296,12 @@
       <workItem from="1561517865589" duration="3504000" />
       <workItem from="1561563056214" duration="45354000" />
       <workItem from="1561736283261" duration="410000" />
-      <workItem from="1561766382167" duration="15860000" />
+      <workItem from="1561766382167" duration="33376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65264000" />
+    <option name="totallyTimeSpent" value="82780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -350,16 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,37 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/themes/default.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/EditorCrafting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EditorDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/EditorDetailsContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,20 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/components.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/EditorBodyView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -595,60 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/EditorResourcesTableContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/EditorResourcesPanelContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/EditorActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/EditorResourcesView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -661,35 +577,161 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesToolbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        <state relative-caret-position="144">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EditorDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/EditorDetailsContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/components.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="79" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/EditorResourcesToolbarContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/ProjectActions.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        <state relative-caret-position="289">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/projects.js">
+    <entry file="file://$PROJECT_DIR$/src/stores/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/EditorResourcesTableContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/themes/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Autocomplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/ProjectActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/projectResources.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/EditorActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="83" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="35" column="97" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/EditorResourcesPanelContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EditorResourcesPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#1704#4292#0" />
+          </folding>
         </state>
       </provider>
     </entry>

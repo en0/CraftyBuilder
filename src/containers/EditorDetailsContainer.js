@@ -10,7 +10,7 @@ const mapStateToProps = (state, {match}) => {
         image: project.image,
         title: project.title,
         desc: project.desc,
-        videoUrl: project.video && project.video.ref,
+        videoUrl: project.videoRef,
     });
 };
 

@@ -7,7 +7,7 @@ const mapStateToProps = () => ({
 });
 
 const mapDispatchToProps = (dispatch, {match}) => ({
-    onAddResource: () => dispatch(addNewResource(match.params.id, {mcid:"minecraft:piston"}))
+    onAddResource: () => dispatch(addNewResource(match.params.id, {mcid:"editor:new"}))
 });
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(EditorResourcesToolbar));
