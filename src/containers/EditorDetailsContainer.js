@@ -1,5 +1,5 @@
 import React from "react";
-import EditorDetailsView from "../components/EditorDetails";
+import EditorDetails from "../components/EditorDetails";
 import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
 
@@ -17,4 +17,4 @@ const mapStateToProps = (state, {match}) => {
 const mapDispatchToProps = dispatch => ({
 });
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(EditorDetailsView));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(EditorDetails));

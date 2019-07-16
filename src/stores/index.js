@@ -7,5 +7,3 @@ export const store = createStore(
     craftyApp,
     applyMiddleware(thunk, logger)
 );
-
-store.dispatch({type: "test"});
